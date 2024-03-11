@@ -52,6 +52,6 @@
 - Prescriptions link patients and doctors.
 
 **Additional Relationship Details:**
-- The Patient entity and the Doctor entity have a many-to-one relationship, meaning many patients can be associated with one doctor.
-- Each MedicalRecord, Appointment, and Prescription has a foreign key referencing the Patient entity (PatientID), indicating which patient it belongs to.
-- Each MedicalRecord, Appointment, and Prescription also has a foreign key referencing the Doctor entity (DoctorID), indicating which doctor is responsible for that particular record, appointment, or prescription.
+- The **Patient** entity and the **Doctor** entity have a many-to-one relationship, meaning many patients can be associated with one doctor.
+- Each **MedicalRecord**, **Appointment**, and **Prescription** has a foreign key referencing the **Patient** entity (PatientID), indicating which patient it belongs to.
+- Each **MedicalRecord**, **Appointment**, and **Prescription** also has a foreign key referencing the **Doctor** entity (DoctorID), indicating which doctor is responsible for that particular record, appointment, or prescription.
